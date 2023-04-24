@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39956CE45F3C559285823017 /* Pods_2021PushExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159604FAB4F270CA453CA566 /* Pods_2021PushExample.framework */; };
 		4BEA8DA829B2F365005EE94F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA8DA729B2F365005EE94F /* AppDelegate.swift */; };
 		4BEA8DAA29B2F365005EE94F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA8DA929B2F365005EE94F /* SceneDelegate.swift */; };
 		4BEA8DAC29B2F365005EE94F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA8DAB29B2F365005EE94F /* ViewController.swift */; };
 		4BEA8DAF29B2F365005EE94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA8DAD29B2F365005EE94F /* Main.storyboard */; };
 		4BEA8DB129B2F367005EE94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA8DB029B2F367005EE94F /* Assets.xcassets */; };
 		4BEA8DB429B2F367005EE94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA8DB229B2F367005EE94F /* LaunchScreen.storyboard */; };
+		4BF2859729B5BA5B0006C3B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BF2859629B5BA5B0006C3B7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		159604FAB4F270CA453CA566 /* Pods_2021PushExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2021PushExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAE4AF1980C1A23DC8E299F /* Pods-2021PushExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2021PushExample.release.xcconfig"; path = "Target Support Files/Pods-2021PushExample/Pods-2021PushExample.release.xcconfig"; sourceTree = "<group>"; };
 		4BEA8DA429B2F365005EE94F /* 2021PushExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2021PushExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BEA8DA729B2F365005EE94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BEA8DA929B2F365005EE94F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		4BEA8DB029B2F367005EE94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BEA8DB329B2F367005EE94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BEA8DB529B2F367005EE94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF2859629B5BA5B0006C3B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		699258ACFA7156B7D521DE6E /* Pods-2021PushExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2021PushExample.debug.xcconfig"; path = "Target Support Files/Pods-2021PushExample/Pods-2021PushExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39956CE45F3C559285823017 /* Pods_2021PushExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23CF99711D0EDED9EE9F1A9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				159604FAB4F270CA453CA566 /* Pods_2021PushExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4BEA8D9B29B2F365005EE94F = {
 			isa = PBXGroup;
 			children = (
 				4BEA8DA629B2F365005EE94F /* 2021PushExample */,
 				4BEA8DA529B2F365005EE94F /* Products */,
+				66D318C5BA53CAFA4C3FE855 /* Pods */,
+				23CF99711D0EDED9EE9F1A9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +73,7 @@
 		4BEA8DA629B2F365005EE94F /* 2021PushExample */ = {
 			isa = PBXGroup;
 			children = (
+				4BF2859629B5BA5B0006C3B7 /* GoogleService-Info.plist */,
 				4BEA8DA729B2F365005EE94F /* AppDelegate.swift */,
 				4BEA8DA929B2F365005EE94F /* SceneDelegate.swift */,
 				4BEA8DAB29B2F365005EE94F /* ViewController.swift */,
@@ -67,6 +85,15 @@
 			path = 2021PushExample;
 			sourceTree = "<group>";
 		};
+		66D318C5BA53CAFA4C3FE855 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				699258ACFA7156B7D521DE6E /* Pods-2021PushExample.debug.xcconfig */,
+				2EAE4AF1980C1A23DC8E299F /* Pods-2021PushExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BEA8DB829B2F367005EE94F /* Build configuration list for PBXNativeTarget "2021PushExample" */;
 			buildPhases = (
+				59F202AB699BBA70B61A8BD7 /* [CP] Check Pods Manifest.lock */,
 				4BEA8DA029B2F365005EE94F /* Sources */,
 				4BEA8DA129B2F365005EE94F /* Frameworks */,
 				4BEA8DA229B2F365005EE94F /* Resources */,
+				3F3273434806A230E9D1C5B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BEA8DB429B2F367005EE94F /* LaunchScreen.storyboard in Resources */,
+				4BF2859729B5BA5B0006C3B7 /* GoogleService-Info.plist in Resources */,
 				4BEA8DB129B2F367005EE94F /* Assets.xcassets in Resources */,
 				4BEA8DAF29B2F365005EE94F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F3273434806A230E9D1C5B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-2021PushExample/Pods-2021PushExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-2021PushExample/Pods-2021PushExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-2021PushExample/Pods-2021PushExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F202AB699BBA70B61A8BD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-2021PushExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4BEA8DA029B2F365005EE94F /* Sources */ = {
@@ -282,12 +354,14 @@
 		};
 		4BEA8DB929B2F367005EE94F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699258ACFA7156B7D521DE6E /* Pods-2021PushExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J37J2R6GX9;
+				DEVELOPMENT_TEAM = VGHY7WU7VM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 2021PushExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -295,13 +369,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tj.sodiq.-021PushExample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esportsination.-021PushExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,12 +386,14 @@
 		};
 		4BEA8DBA29B2F367005EE94F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAE4AF1980C1A23DC8E299F /* Pods-2021PushExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J37J2R6GX9;
+				DEVELOPMENT_TEAM = VGHY7WU7VM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 2021PushExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,13 +401,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tj.sodiq.-021PushExample";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esportsination.-021PushExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
